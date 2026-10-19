@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/yibeigen/WeChat-Publisher/releases"><img src="https://img.shields.io/badge/Windows-免安装绿色版%20v1.0.0-07c160?style=flat-square" alt="Release"></a>
+  <a href="#-作者与社区交流"><img src="https://img.shields.io/badge/WeChat-官方交流群-07c160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat Group"></a>
   <a href="https://github.com/yibeigen/WeChat-Publisher/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-09090b?style=flat-square" alt="License"></a>
   <a href="https://blog.csdn.net/qq_46987323?spm=1000.2115.3001.5343"><img src="https://img.shields.io/badge/CSDN-艺杯羹-red?style=flat-square" alt="CSDN"></a>
   <a href="https://yibeigen.pages.dev/"><img src="https://img.shields.io/badge/Official-艺杯羹主页-blue?style=flat-square" alt="Author"></a>
@@ -19,6 +20,9 @@
 
 > **【免费获取激活密钥】**  
 > 首次使用导出功能需输入授权码。微信扫码关注作者公众号 **【艺杯羹】**，在后台回复关键词 **`文章`**，即可**免费获取专属激活密钥**，立即解锁全功能！
+>
+> **【加入官方交流群】**  
+> 欢迎扫码加入微信交流群交流使用体验、反馈建议与获取更新：[👉 点击直达文末交流群二维码](#-作者与社区交流)
 >
 > **【想下载其他平台？】**  
 > 如果您需要批量下载或提纯**其他主流内容平台**（如知乎问答与专栏、微博长文、CSDN 博客、掘金社区、全网任意网页等），欢迎移步作者维护的另一款全网博文提纯神器：  
@@ -97,10 +101,18 @@
 
 ---
 
-## 👨‍💻 作者与联系方式
+## 👨‍💻 作者与社区交流
+
+欢迎微信扫码加入官方交流群，与作者面对面交流反馈、提出新功能建议，或获取最新公测版本更新提醒：
+
+<p align="center">
+  <img src="docs/screenshots/wechat_group.png" width="220" alt="博萃·文章导出交流群">
+  <br>
+  <sub><b>博萃 · 文章导出微信交流群</b>（如群满或二维码过期，可添加作者 QQ: 3057454077 拉群）</sub>
+</p>
 
 - **软件作者**：艺杯羹 (@yibeigen)
-- **微信公众号**：**艺杯羹**（微信搜索关注，后台回复关键词获取技术支持）
+- **微信公众号**：**艺杯羹**（微信搜索关注，后台回复关键词「文章」获取专属激活密钥）
 - **联系 QQ**：`3057454077`
 - **CSDN 博客**：[艺杯羹的 CSDN 技术博客](https://blog.csdn.net/qq_46987323?spm=1000.2115.3001.5343)
 - **个人主页**：[https://yibeigen.pages.dev/](https://yibeigen.pages.dev/)

@@ -1,0 +1,54 @@
+# Python compiled cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller packaging output & Binary executables
+build/
+dist/
+ms-playwright/
+*.exe
+*.tobedeleted
+Keyhole-windows-x64.exe
+wechat-mmtls-driver.exe
+
+# Local data, credentials and logs (CRITICAL FOR SECURITY)
+data/
+*.log
+downloads/
+wx_channels_download_temp/
+updates/
+scratch/
+scratch_*
+wechat-mp-server/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Virtual environments
+venv*/
+
+# Claude / Gemini IDE agent config
+.claude/
+.superpowers/
+.gemini/
+.agents/
+
+# Local architecture-analysis graph
+graphify-out/
+
+# Private source code & architecture specs (公测阶段源码本地保护，待架构全面稳固后开放)
+app.py
+build_release.py
+启动.bat
+requirements.txt
+backend/
+frontend/
+tests/
+*.spec
+docs/ARCHITECTURE.md
+docs/微信侧通道开发文档.md
+docs/账号池设计文档.md
+docs/diagrams/

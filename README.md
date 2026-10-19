@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="docs/screenshots/logo.png" width="100" height="100" alt="WeChat-Publisher Logo">
+  <img src="docs/screenshots/logo.png" alt="博萃 · 微信公众号文章出版归档" width="480">
 </p>
-
-<h1 align="center">博萃 · 微信公众号文章出版归档 (WeChat-Publisher)</h1>
 
 <p align="center">
   <b>全网前沿技术落地 · 微信公众号全量历史无损归档 · 出版级多格式批量导出 · 链接/标题清单提取</b>

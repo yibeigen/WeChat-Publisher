@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/logo.svg" width="96" height="96" alt="WeChat-Publisher Logo">
+  <img src="docs/screenshots/logo.png" width="100" height="100" alt="WeChat-Publisher Logo">
 </p>
 
 <h1 align="center">博萃 · 微信公众号文章出版归档 (WeChat-Publisher)</h1>

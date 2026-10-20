@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yibeigen/WeChat-Publisher/releases"><img src="https://img.shields.io/badge/Windows-免安装绿色版%20v1.0.0-07c160?style=flat-square" alt="Release"></a>
+  <a href="https://github.com/yibeigen/WeChat-Publisher/releases"><img src="https://img.shields.io/badge/Windows-v1.0.1%20安装版%20%2F%20绿色版-07c160?style=flat-square" alt="Release"></a>
   <a href="#-作者与社区交流"><img src="https://img.shields.io/badge/WeChat-官方交流群-07c160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat Group"></a>
   <a href="https://github.com/yibeigen/WeChat-Publisher/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-09090b?style=flat-square" alt="License"></a>
   <a href="https://blog.csdn.net/qq_46987323?spm=1000.2115.3001.5343"><img src="https://img.shields.io/badge/CSDN-艺杯羹-red?style=flat-square" alt="CSDN"></a>
@@ -66,8 +66,13 @@
 
 ## 📖 使用步骤指引
 
-### 步骤一：获取与解压启动
-前往 GitHub 仓库右侧 **[Releases](https://github.com/yibeigen/WeChat-Publisher/releases)** 页面，下载最新的 `WeChat-Publisher-Windows-v1.0.zip`，解压后双击 `WeChat-Publisher.exe` 或 `双击启动.bat`，即可在浏览器中自动进入管理工作台（默认 `http://127.0.0.1:5200`）：
+### 步骤一：获取与安装启动
+前往 GitHub 仓库右侧 **[Releases](https://github.com/yibeigen/WeChat-Publisher/releases)** 页面，按需任选其一：
+
+- **安装版（推荐）**：下载 `WeChat-Publisher-Setup-v1.0.1.exe`，双击按向导安装即可，自动创建开始菜单/桌面快捷方式；**升级版本直接双击新安装包覆盖安装**，文章数据与配置自动保留，支持一键卸载。
+- **免安装绿色版**：下载 `WeChat-Publisher-Windows-v1.0.1.zip`，解压后双击 `WeChat-Publisher.exe` 或 `双击启动.bat`；升级时将新压缩包解压覆盖到原目录即可（`data/` 数据文件夹请勿删除）。
+
+两种方式均可在浏览器中自动进入管理工作台（默认 `http://127.0.0.1:5200`）：
 
 ![软件启动与工作台首页](docs/screenshots/01_dashboard.png)
 

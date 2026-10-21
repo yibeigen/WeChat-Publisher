@@ -6,7 +6,7 @@
 ; ============================================================
 
 #define MyAppName "WeChat-Publisher"
-#define MyAppVersion "1.0.1"
+#define MyAppVersion "1.0.2"
 #define MyAppPublisher "艺杯羹 (@yibeigen)"
 #define MyAppURL "https://github.com/yibeigen/WeChat-Publisher"
 #define MyAppExeName "WeChat-Publisher.exe"
@@ -30,7 +30,7 @@ DefaultGroupName={#MyAppName}
 UninstallDisplayIcon={app}\{#MyAppExeName}
 ; 安装包图标（由官方横幅 Logo 左侧图标裁剪生成）
 SetupIconFile=logo.ico
-; 输出位置与文件名：dist\WeChat-Publisher-Setup-v1.0.1.exe
+; 输出位置与文件名：dist\WeChat-Publisher-Setup-v1.0.2.exe
 OutputDir=dist
 OutputBaseFilename=WeChat-Publisher-Setup-v{#MyAppVersion}
 ; 固实压缩 + LZMA2 最高压缩率，把 300 多个运行时文件压到最小
@@ -39,7 +39,7 @@ SolidCompression=yes
 ; exe 的版本信息（右键属性里显示）
 VersionInfoVersion={#MyAppVersion}.0
 VersionInfoTextVersion={#MyAppVersion}
-; 向导标题栏显示「安装程序 - WeChat-Publisher v1.0.1」
+; 向导标题栏显示「安装程序 - WeChat-Publisher v1.0.2」
 WizardStyle=modern
 ; 关闭「安装完成后是否启动程序」以外的多余确认页，保持向导简短
 DisableProgramGroupPage=yes

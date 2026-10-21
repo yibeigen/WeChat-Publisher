@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/yibeigen/WeChat-Publisher/releases"><img src="https://img.shields.io/badge/Windows-v1.0.2%20安装版%20%2F%20绿色版-07c160?style=flat-square" alt="Release"></a>
+  <a href="https://github.com/yibeigen/WeChat-Publisher/releases"><img src="https://img.shields.io/badge/macOS-v1.0.2%20Apple%20Silicon%20%2F%20Intel-09090b?style=flat-square&logo=apple&logoColor=white" alt="macOS Release"></a>
   <a href="#-作者与社区交流"><img src="https://img.shields.io/badge/WeChat-官方交流群-07c160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat Group"></a>
   <a href="https://github.com/yibeigen/WeChat-Publisher/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-09090b?style=flat-square" alt="License"></a>
   <a href="https://blog.csdn.net/qq_46987323?spm=1000.2115.3001.5343"><img src="https://img.shields.io/badge/CSDN-艺杯羹-red?style=flat-square" alt="CSDN"></a>
@@ -35,10 +36,26 @@
 ### 准备工作：下载与启动
 前往 GitHub 仓库右侧 **[Releases](https://github.com/yibeigen/WeChat-Publisher/releases)** 页面，按需任选其一：
 
+**Windows 版**
+
 - **安装版（推荐）**：下载 `WeChat-Publisher-Setup-v1.0.2.exe`，双击按向导安装即可，自动创建开始菜单/桌面快捷方式；**升级版本直接双击新安装包覆盖安装**，文章数据与配置自动保留，支持一键卸载。
 - **免安装绿色版**：下载 `WeChat-Publisher-Windows-v1.0.2.zip`，解压后双击 `WeChat-Publisher.exe` 或 `双击启动.bat`；升级时将新压缩包解压覆盖到原目录即可（`data/` 数据文件夹请勿删除）。
 
-两种方式启动后都会自动在浏览器打开管理工作台（默认 `http://127.0.0.1:5200`）：
+**macOS 版（macOS 11.0 及以上）**
+
+- **Apple Silicon（M1/M2/M3/M4）**：下载 `WeChat-Publisher-macOS-Lite-arm64-v1.0.2.dmg`
+- **Intel 芯片**：下载 `WeChat-Publisher-macOS-Lite-x86_64-v1.0.2.dmg`
+- 同目录另附同名 `.zip` 压缩包，解压后可直接得到 `WeChat-Publisher.app`。
+
+安装方式：打开 dmg，把 `WeChat-Publisher.app` 拖入「应用程序」文件夹即可。由于安装包未使用 Apple 开发者证书签名，**首次启动请按住 Control 点击图标 → 选择「打开」→ 再点一次「打开」**；若仍被系统拦截，可在终端执行一次：
+
+```bash
+xattr -cr /Applications/WeChat-Publisher.app
+```
+
+macOS 版的数据与配置保存在 `~/Library/Application Support/WeChat MP Tools`，升级时替换 App 即可，数据不会丢失。
+
+两种平台启动后都会自动在浏览器打开管理工作台（默认 `http://127.0.0.1:5200`）：
 
 ![软件启动与工作台首页](docs/screenshots/01_dashboard.png)
 
@@ -123,8 +140,8 @@
 由于公众号批量归档能力在微信生态中的稀缺性，目前网络上有人将类似机制打包后进行**高价售卖、付费割韭菜**。作者开发此工具的初衷非常纯粹：**将高效率的工具实实在在免费提供给所有真正需要做知识沉淀、公众号文章备份和创作归档的朋友们使用**。
 
 ### 3. 公测先行，稳固后正式开源
-由于公众号文章排版解析与采集适配具有较高的复杂度和动态性，为防止核心接口技术过早被滥用或被黑灰产拿去倒卖，同时也为了集中精力对不同 Windows 环境和多端适配进行兼容性打磨：
-* **第一阶段（当前）**：向大家发布 **Windows 免安装便携绿色公测版**（可在右侧 [Releases](https://github.com/yibeigen/WeChat-Publisher/releases) 直接下载即用）。
+由于公众号文章排版解析与采集适配具有较高的复杂度和动态性，为防止核心接口技术过早被滥用或被黑灰产拿去倒卖，同时也为了集中精力对不同 Windows / macOS 环境和多端适配进行兼容性打磨：
+* **第一阶段（当前）**：向大家发布 **Windows 安装版 / 免安装便携绿色版** 与 **macOS 版（Apple Silicon / Intel 双架构）**（均可在右侧 [Releases](https://github.com/yibeigen/WeChat-Publisher/releases) 直接下载即用）。
 * **第二阶段（成熟后）**：待采集通道与系统架构在各种实际场景下全面经过检验、完全稳定成熟之后，**本项目将正式无保留开放全部源代码**！欢迎大家积极测试并提交 Issue 建议！
 
 ---

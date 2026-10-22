@@ -17,16 +17,6 @@
 
 ---
 
-> [!IMPORTANT]
-> **✅ 微信公众号全量历史文章批量导出已正式可用（不再是"修复中"）**
->
-> 早期方案依赖本地代理嗅探微信客户端通道，在微信 4.x 切换为私有 Native iLink 通道后失效。本版已改用**微信读书通道**重新实现：登录自己的微信读书账号后，即可对目标公众号做**整号历史文章全量归档**，并批量导出为 Markdown / PDF / Word / TXT / 离线网页。
->
-> - **项目仓库**：https://github.com/yibeigen/WeChat-Publisher
-> - **下载地址**：[Releases（Windows 安装版 / 绿色版 · macOS 双架构版）](https://github.com/yibeigen/WeChat-Publisher/releases)
-
----
-
 ### 🔑 快速解锁密钥 & 更多平台下载
 
 > **【免费获取激活密钥】**  
